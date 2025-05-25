@@ -36,12 +36,10 @@ int main() {
 }
 
 /*
-Important Points
-
 1. Copy Constructor 
     ClassName(const ClassName&);
 
-2. Copy Assignment Opertaot
+2. Copy Assignment Opertor
     ClassName& operator=(const ClassName&); 
 
 3. In >= C++11, local static variables are initialised in thread safe manner. Before C++11, we need to
